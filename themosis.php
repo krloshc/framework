@@ -213,6 +213,7 @@ if (!class_exists('Themosis')) {
                 Themosis\Metabox\MetaboxServiceProvider::class,
                 Themosis\Page\PageServiceProvider::class,
                 Themosis\Page\Sections\SectionServiceProvider::class,
+                Themosis\Page\PageMultiServiceProvider::class,
                 Themosis\PostType\PostTypeServiceProvider::class,
                 Themosis\Route\RouteServiceProvider::class,
                 Themosis\Taxonomy\TaxonomyServiceProvider::class,
