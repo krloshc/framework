@@ -4,6 +4,7 @@ namespace Themosis\Page\Sections;
 
 use Illuminate\View\View;
 use Themosis\Foundation\DataContainer;
+use Themosis\Page\PageBuilder;
 
 class SectionBuilder
 {
@@ -93,5 +94,22 @@ class SectionBuilder
     public function getData()
     {
         return $this->data;
+    }
+
+    /**
+     * Handle section display of the Settings API.
+     *
+     * @param array $args
+     */
+    public function renderSections($page)
+    {
+        if(!isset($this->view)){
+            return;
+        }
+
+        $this->view->with('__page', $page);
+        $this->view->with('__section', $this);
+
+        echo $this->view->render();
     }
 }
