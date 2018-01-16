@@ -1,5 +1,5 @@
 {
-  "name": "themosis/framework",
+  "name": "krloshc/framework",
   "description": "The Themosis framework.",
   "keywords": ["themosis", "framework", "WordPress", "plugin"],
   "license": "GPL-2.0+",
@@ -7,6 +7,11 @@
     {
       "name": "Julien Lambé",
       "email": "julien@themosis.com",
+      "homepage": "http://www.themosis.com/"
+    },
+    {
+      "name": "Carlos R Herrera",
+      "email": "krlos8510@gmail.com",
       "homepage": "http://www.themosis.com/"
     }
   ],
